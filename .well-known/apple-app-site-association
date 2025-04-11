@@ -3,8 +3,13 @@
         "apps": [],
         "details": [
             {
-                "appID": "XSBV44VU7Y.com.hubmee.app.stage",
-                "paths": ["*", "!*digital-business-card*", "NOT *digital-business-card*"]
+                "appIDs": ["XSBV44VU7Y.com.hubmee.app.stage"],
+                "paths": ["*"],
+                "components": [
+                    {
+                        "/": "/*"
+                    }
+                ]
             }
         ]
     }
