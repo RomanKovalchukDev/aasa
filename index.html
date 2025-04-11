@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AASA Test Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            text-align: center;
+        }
+        .routes {
+            margin-top: 30px;
+            text-align: left;
+        }
+        .route {
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AASA Test Website</h1>
+        <p>This website is used to test Apple App Site Association (AASA) route exclusion.</p>
+        
+        <div class="routes">
+            <h2>Test Routes</h2>
+            <div class="route">
+                <h3>Regular Route</h3>
+                <p><a href="/regular">/regular</a> - This route should be handled by the app</p>
+            </div>
+            <div class="route">
+                <h3>Excluded Route</h3>
+                <p><a href="/excluded/test">/excluded/test</a> - This route should NOT be handled by the app</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
