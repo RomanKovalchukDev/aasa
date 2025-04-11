@@ -4,7 +4,7 @@
         "details": [
             {
                 "appID": "XSBV44VU7Y.com.hubmee.app.stage",
-                "paths": ["*", "!*digital-business-card*"]
+                "paths": ["*", "!*digital-business-card*", "NOT *digital-business-card*"]
             }
         ]
     }
